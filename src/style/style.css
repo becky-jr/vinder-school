@@ -1,0 +1,147 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Header*/
+.header-navbar{
+    background-color: #dc3545 !important;
+}
+
+.header-logo {
+    width: 65px;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    padding: 10px 10px;
+}
+
+.navbar-items {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.nav-item-logo {
+    margin: 2px 0 0;
+}
+.nav-item {
+    margin: 0 0 0 8rem;
+}
+.navbar-link{
+    text-decoration: none;
+    color: #fff;
+}
+.navbar-link:hover{
+    color: #fff;
+}
+
+
+/*First Menu*/
+#first-page {
+    background-color: #dc3545;
+}
+.tel-link{
+    display: flex;
+    justify-content: start;
+}
+.btn{
+    border-radius: 10px;
+}
+.number {
+    text-decoration: none;
+    color: #000;
+}
+.number:hover{
+    color: black;
+}
+
+/*.first-page-info{*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*}*/
+.first-page-descr{
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+    padding: 10rem 0;
+    align-items: center;
+}
+
+.second-page-text {
+    text-align: center;
+}
+.first-page-img{
+    margin-top: 2rem;
+    width: 600px;
+}
+
+
+/*Advantages*/
+
+.adv-text{
+    text-align: center;
+    margin: 5rem 0 0;
+}
+.adv-card {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+
+
+
+/*Cards*/
+#cards {
+    margin: 10rem 0 0;
+}
+
+.cards-container {
+    justify-content: center;
+}
+.card {
+    margin: 0 auto;
+}
+
+
+/*gallery*/
+#gallery {
+    margin: 10rem 0 5rem;
+}
+
+
+#footer {
+    padding: 5rem 0;
+    background-color: #dc3545;
+}
+.footer-text{
+    margin-top: 10rem;
+}
+
+
+
+@media only screen and (max-width: 990px) {
+    #navbar {
+        text-align: center;
+    }
+    .header-logo {
+        width: 100px;
+    }
+    .nav-item {
+        margin: 0;
+    }
+    .first-page-img {
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        width: 400px;
+        margin-left: 2rem;
+    }
+
+    .adv-card {
+        margin-top: 1rem;
+    }
+
+    #cards{
+        margin-top: 5rem;
+    }
+    #gallery {
+        margin-top: 5rem;
+    }
+}
